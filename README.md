@@ -1,5 +1,10 @@
 # TestContainers - stop failure if used as Spring bean
 
+**UPDATE**:
+This issue was fixed in TestContainers `1.7.1`. See [gh-369](https://github.com/testcontainers/testcontainers-java/issues/369).
+
+---
+
 This is a minimal project to demonstrate the problem with stopping TestContainers when it is being used Spring bean in a traditional web application deployed to Tomcat.
 
 When a container is configured like this:
